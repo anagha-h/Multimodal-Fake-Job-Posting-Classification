@@ -1,2 +1,25 @@
-*.pt
+# OS / IDE
+.DS_Store
+.vscode/
+*.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual env / logs / large training artifacts
+venv/
+lightning_logs/
+
+# Checkpoints & large model binaries
+*.ckpt
+*.pth
+outputs/**/last_snapshot.ckpt
+outputs/**/img-epoch-*.ckpt
+outputs/vgg16/model_state_dict.pth
+
+# Raw dataset images (huge; don’t track)
+data/images/
+
+# Ana repo’s XAI large checkpoint
 xai_outputs/fusion_model_checkpoint.pt
