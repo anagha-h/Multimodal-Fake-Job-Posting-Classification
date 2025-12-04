@@ -1,0 +1,13 @@
+              precision    recall  f1-score   support
+
+   Not Fraud     0.9583    0.9982    0.9779      3388
+       Fraud     0.8065    0.1453    0.2463       172
+
+    accuracy                         0.9570      3560
+   macro avg     0.8824    0.5718    0.6121      3560
+weighted avg     0.9510    0.9570    0.9425      3560
+
+ROC AUC: 0.7855
+Confusion matrix:
+[[3382    6]
+ [ 147   25]]
